@@ -10,10 +10,10 @@ public class Detail_Page
 {
 	public WebDriver driver;
 	
-	@FindBy(xpath = "")
+	@FindBy(xpath = "//button[@id='add-to-cart-btn']")
 	WebElement add_to_cart;
 	
-	@FindBy(xpath = "")
+	@FindBy(xpath = "//a[@id='add-to-cart-view-cart']")
 	WebElement view_cart;
 	
 	public Detail_Page(WebDriver driver)

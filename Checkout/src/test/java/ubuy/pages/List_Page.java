@@ -10,7 +10,7 @@ public class List_Page
 {
    public WebDriver driver;
 	
-	@FindBy(xpath = "")
+	@FindBy(xpath = "//div[@id='usstore-products']/div[2]/div/div[1]/a")
     WebElement detail_url;
     
     public List_Page(WebDriver driver)

@@ -11,7 +11,7 @@ public class Cart_Page
     
 	public WebDriver driver;
 	
-	@FindBy(xpath = "")
+	@FindBy(xpath = "//ul[@class='mb-3 pt-2 pl-0']/li[5]/button")
 	WebElement proceed_to_checkout;
 	
 	public Cart_Page(WebDriver driver)

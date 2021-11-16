@@ -11,37 +11,37 @@ public class Checkout_Page
 {
     WebDriver driver;
     
-    @FindBy(xpath = "")
+    @FindBy(xpath = "//input[@id='billing:fullname']")
     WebElement full_name;
     
-    @FindBy(xpath = "")
+    @FindBy(xpath = "//input[@id='billing:telephone']")
     WebElement contact_no;
     
-    @FindBy(xpath = "")
+    @FindBy(xpath = "//input[@id='billing:email']")
     WebElement email;
    
-    @FindBy(xpath = "")
+    @FindBy(xpath = "//select[@id='billing:city']")
     Select city;
     
-    @FindBy(xpath = "")
+    @FindBy(xpath = "//input[@id='billing:address_house_no']")
     WebElement house_no;
     
-    @FindBy(xpath = "")
+    @FindBy(xpath = "//input[@id='billing:address_street']")
     WebElement street;
     
-    @FindBy(xpath = "")
+    @FindBy(xpath = "//input[@id='billing:address_block']")
     WebElement block;
     
-    @FindBy(xpath = "")
+    @FindBy(xpath = "//button[@id='billing_save_button']")
     WebElement save_address_button;
     
     @FindBy(xpath = "")
     WebElement shipping_method;
     
-    @FindBy(xpath = "")
+    @FindBy(xpath = "//img[@alt='KNET']")
     WebElement payment_method;
     
-    @FindBy(xpath = "")
+    @FindBy(xpath = "//button[@class='overview-btn btn btn-primary btn-lg']")
     WebElement proceed_to_pay_button;
     
     public Checkout_Page(WebDriver driver)

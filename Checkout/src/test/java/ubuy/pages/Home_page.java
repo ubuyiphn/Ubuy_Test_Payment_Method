@@ -3,6 +3,7 @@ package ubuy.pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
 
 import ubuy.helper.Wait;
 
@@ -12,10 +13,10 @@ public class Home_page
    
    public String keyword;
 	
-	@FindBy(xpath="")
+	@FindBy(xpath="//input[@title='Search']")
     WebElement search_bar;
     
-    @FindBy(xpath="")
+    @FindBy(xpath="//em[@class='fas fa-search']")
     WebElement search_icon;
     
     public Home_page(WebDriver driver)
